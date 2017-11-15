@@ -1,0 +1,23 @@
+sign.up: Sign Up
+sign.in: Sign In
+sign.out: Sign Out
+sign.mail: Mail Adress
+sign.pswd: Password
+sign.confirm.error: Please confirm your password
+
+sign.error: Bad Credentials
+sign.pswd.car.error: Password must at least contain 8 characters
+
+add: add 
+add.title: Please enter a title
+add.title.error: Empty title!
+add.description: Enter a description
+add.description.error: Description is empty!
+add.start: Please enter a valid beginning hour
+add.end: Duration
+add.link.href: Link 
+add.link.href.error: Invalidate link!!
+add.link.title: Activity link 
+add.link.title.error: Expired link!!
+add.error: Empty form!!
+add.time.start.error: Invalidate beginning hour

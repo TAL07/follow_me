@@ -1,0 +1,27 @@
+sign.up: Insciption
+sign.in: Connexion
+sign.out: Deconnexion
+sign.mail: Adresse Email
+sign.pswd: Mot De Passe
+sign.confirm: Confirmation
+sign.error: Mauvais Identifiants
+sign.user.error: L'utilisateur existe déjà
+sign.confirm.error: Veuillez confirmer le Mot de Passe
+sign.pswd.car.error: Le Mot de Passe doit contenir au minimum 8 caractères
+add: ajouter 
+add.title: Veuillez saisir un titre
+add.title.error: Titre vide!
+add.description: Veuillez saisir une description
+add.description.error: Description vide!
+add.start: Veuillez saisir l'heure à laquelle commence l'activité
+add.end: Durée
+add.link.href: Lien utile
+add.link.href.error: Lien erroné!!
+add.link.title: Lien vers l'activité
+add.link.title.error: Lien expiré!!
+add.error: Formulaire vide!!
+add.time.start.error: Début d'activité incorrecte
+add.time.end.error: fin activité incorrecte
+
+
+

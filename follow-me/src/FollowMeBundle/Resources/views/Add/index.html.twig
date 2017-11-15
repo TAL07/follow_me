@@ -1,0 +1,83 @@
+{% extends "@FollowMeBundle/Resources/views/base.html.twig" %}
+
+{% block title %}Ajouter{% endblock %}
+
+{% block body %}
+<h1>{{ "add"|trans|capitalize }}</h1>
+
+{{ form_start(form, { "attr": { "novalidate": "novalidate"}} ) }}
+
+{% include "@FollowMeBundle/Resources/views/form/sign_errors.html.twig" %}
+
+{% if is_granted('ROLE_SUPER_ADMIN') %}
+YOU'VE ROLE ROLE_SUPER_ADMIN
+{% endif %}
+
+
+
+<div class="input-group">
+    {{ form_label(form.dating_title) }}
+    {{ form_errors(form.dating_title) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    {{ form_widget(form.dating_title) }}
+</div>
+
+
+<div class="input-group">
+    {{ form_label(form.dating_description) }}
+    {{ form_errors(form.dating_description) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    {{ form_widget(form.dating_description) }}
+</div>
+
+<div class="input-group">
+    {{ form_label(form.dating_start) }}
+    {{ form_errors(form.dating_start) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+    {{ form_widget(form.dating_start) }}
+</div>
+
+<div class="input-group">
+    {{ form_label(form.dating_end) }}
+    {{ form_errors(form.dating_end) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+    {{ form_widget(form.dating_end) }}
+</div>
+
+
+<div class="input-group">
+    {{ form_label(form.dating_link_href) }}
+    {{ form_errors(form.dating_link_href) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-link"></i></span>
+    {{ form_widget(form.dating_link_href) }}
+</div>
+
+<div class="input-group">
+    {{ form_label(form.dating_link_title) }}
+    {{ form_errors(form.dating_link_title) }}
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-link"></i></span>
+    {{ form_widget(form.dating_link_title) }}
+</div>
+
+
+<br/ >
+<div class="input-form">
+    <button class="btn btn-success">{{ "add"|trans|capitalize }}</button>
+</div>
+
+{{ form_end(form) }}
+
+
+{% endblock %}
